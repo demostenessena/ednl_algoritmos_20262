@@ -45,6 +45,15 @@ class No<T> {
 		}
 	}
 
+	// TODO - Sucessor 
+	public No<T> sucessor(){
+		return null;
+	}
+
+	// TODO - Antecessor
+	public No<T> antecessor(){
+		return null;
+	}
 
 	// identifica se o nó é uma folha
 	public boolean noFolha() {
@@ -183,6 +192,11 @@ public class ArvoreBinaria<T> {
 		else {
 			return this.raiz.retornarPai(dado);
 		}
+	}
+
+	// TODO - método auxiliar para transplante 
+	private void transplante(No<T> no_antigo, No<T> no_novo) {
+		return;
 	}
 
 	// imprime a árvore no "terminal"
