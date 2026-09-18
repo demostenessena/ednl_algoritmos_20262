@@ -82,7 +82,6 @@ public class ArvoreBinaria<T extends Comparable<T>> {
 		}else {
 			No<T> no_sucessor = no.sucessor();
 			if(no_sucessor.pai != no) {
-				//transposicao(no_sucessor, no.direita);
 				transposicao(no_sucessor, no_sucessor.direita);
 				no_sucessor.direita = no.direita;
 				no_sucessor.direita.pai = no_sucessor;
