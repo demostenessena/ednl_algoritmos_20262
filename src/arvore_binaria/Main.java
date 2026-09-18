@@ -1,5 +1,4 @@
-import java.io.IOException;
-import java.util.Scanner;
+package arvore_binaria;
 
 public class Main {
 	public static void main(String[] args) {
@@ -23,10 +22,14 @@ public class Main {
 		System.out.println("Resultado (buscar - 13): " + arvore_a.buscar(13));
 
 		arvore_a.imprimirMD("arvore_binaria_a1.md");		
-		/*arvore_a.remover(3);		
+		arvore_a.remover(12);		
 		arvore_a.imprimirMD("arvore_binaria_a2.md");
-		arvore_a.remover(14);
-		arvore_a.imprimirMD("arvore_binaria_a3.md"); */
+		arvore_a.remover(5);
+		arvore_a.imprimirMD("arvore_binaria_a3.md"); 				
+		arvore_a.remover(18);
+		arvore_a.imprimirMD("arvore_binaria_a4.md");
+		arvore_a.remover(10);
+		arvore_a.imprimirMD("arvore_binaria_a5.md");
 
 	}
 }

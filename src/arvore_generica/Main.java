@@ -1,11 +1,10 @@
-import java.io.IOException;
-import java.util.Scanner;
+package arvore_generica;
 
 public class Main {
 	public static void main(String[] args) {
-		ArvoreBinaria<String> arvore_a = new ArvoreBinaria<>();
-		ArvoreBinaria<String> arvore_b = new ArvoreBinaria<>();
-		ArvoreBinaria<String> arvore_c = new ArvoreBinaria<>();
+		Arvore<String> arvore_a = new Arvore<>();
+		Arvore<String> arvore_b = new Arvore<>();
+		Arvore<String> arvore_c = new Arvore<>();
 		
 		No<String> no_a = new No<>("A");
 		arvore_a.criarRaiz(no_a);
